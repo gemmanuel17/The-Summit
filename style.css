@@ -4,6 +4,12 @@ a {
 
 .nav-link:hover {
   background-color: hsla(219, 0%, 90%, 0.25);
-  border: 1px solid #000000;
+  border: 1px solid black;
   transform: translateY(-5px);
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  background-color: hsla(219, 0%, 100%, 1);
+  padding: 10px;
 }
