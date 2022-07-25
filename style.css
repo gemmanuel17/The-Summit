@@ -1,0 +1,9 @@
+a {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: hsla(219, 0%, 90%, 0.25);
+  border: 1px solid #000000;
+  transform: translateY(-5px);
+}
