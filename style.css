@@ -1,3 +1,5 @@
+/* Basic link styling */
+
 a {
   cursor: pointer;
 }
@@ -6,6 +8,8 @@ a {
   background-color: hsla(219, 0%, 90%, 0.25);
   border: 1px solid #000000;
 }
+
+/* Styling "Get on the mountain" Button */
 
 .btn {
   display: block;
@@ -29,4 +33,17 @@ a {
   transform: translateY(5px);
   box-shadow: none;
   transition: 0.14s;
+}
+
+/* Activity buttons Styling */
+
+.activity:hover {
+  background-color: hsla(217, 100%, 56%, 0.95); 
+  transform: translateY(-5px);
+}
+
+.activity:active {
+  color: hsla(217, 100%, 56%, 0.95);
+  background-color: hsla(217, 100%, 95%, 1);
+  border: 1px solid hsla(217, 100%, 56%, 0.95);
 }
