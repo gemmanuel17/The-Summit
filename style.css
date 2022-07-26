@@ -4,12 +4,29 @@ a {
 
 .nav-link:hover {
   background-color: hsla(219, 0%, 90%, 0.25);
-  border: 1px solid black;
-  transform: translateY(-5px);
+  border: 1px solid #000000;
 }
 
 .btn {
+  display: block;
   font-family: 'Raleway', sans-serif;
+  text-align: center;
   background-color: hsla(219, 0%, 100%, 1);
+  margin: 0px auto;
+  width: 175px;
   padding: 10px;
+  box-shadow: 0 5px 0 #000000;
+}
+
+.btn:hover {
+  color: #2176FF;
+  background-color: hsla(219, 0%, 90%, 0.99);
+  transform: translateY(-3px);
+  box-shadow: 0 7px 0 #000000;
+}
+
+.btn:active {
+  transform: translateY(5px);
+  box-shadow: none;
+  transition: 0.14s;
 }
